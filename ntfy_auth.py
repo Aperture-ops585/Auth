@@ -3,7 +3,7 @@ import json
 import os
 
 # Load configuration from JSON file
-CONFIG_PATH = "/home/aperture/Auth/config.json"
+CONFIG_PATH = "./config.json"
 
 def load_config():
     with open(CONFIG_PATH, 'r') as f:

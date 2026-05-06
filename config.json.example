@@ -1,8 +1,8 @@
 {
-    "ntfy_token": "YOUR_NTFY_TOKEN",
-    "public_url": "https://your-domain.duckdns.org",
-    "topic_url": "https://your-domain.duckdns.org/YourTopic",
-    "response_url": "https://your-domain.duckdns.org/YourTopic_Check",
-    "pam_script_path": "/path/to/pam_ssh_ntfy.py",
+    "ntfy_token": "tk_...",
+    "public_url": "https://your-domain.com",
+    "topic_url": "https://your-domain.com/AuthBot",
+    "response_url": "https://your-domain.com/AuthBot_Check",
+    "project_path": "/path/to/your/Auth/directory",
     "tags": ""
 }

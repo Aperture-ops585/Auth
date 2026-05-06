@@ -1,3 +1,6 @@
+# python script for ntfy pam authentication, can be enabled by inserting the following line in the pam file:
+# auth     required    pam_exec.so     expose_authtok      /path/to/pam_ssh_ntfy.py
+# Usually after a password login enabling 2FA, i.e @include common-auth
 #!/usr/bin/env python3
 import os
 import sys
@@ -47,6 +50,7 @@ def poll_for_decision(request_id, start_time):
 
 def main():
     request_id = str(uuid.uuid4())[:8] #Generate a unique request ID. 
+    
     start_time = time.time()
 
     # 1. Send the Push Notification

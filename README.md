@@ -19,7 +19,8 @@ Rename `config.json.example` to `config.json` and update:
 {
     "ntfy_token": "tk_...",
     "topic_url": "https://your-domain.com/AuthBot",
-    "response_url": "https://your-domain.com/AuthBot_Check"
+    "response_url": "https://your-domain.com/AuthBot_Check",
+    "project_path": "/path/to/your/Auth/directory"
 }
 ```
 
